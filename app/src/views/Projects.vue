@@ -4,7 +4,7 @@ import Project from '@/components/Project.vue'
 <template>
   <div class="lg:h-screen lg:w-screen mt-36 mb-36">
     <h1 class="flex justify-center text-2xl font-bold">MY WORK</h1>
-    <h1 class="flex justify-center text-lg mb-16">
+    <h1 class="flex justify-center text-sm mb-16">
       Freelance projects i've worked on
     </h1>
     <!-- PAYROLL -->

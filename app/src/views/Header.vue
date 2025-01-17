@@ -2,11 +2,11 @@
 import { ref } from 'vue'
 
 const isDarkMode = ref(null)
-
 const toggleDarkMode = () => {
   isDarkMode.value = document.documentElement.classList.toggle('dark')
-  console.log(isDarkMode.value)
 }
+
+
 </script>
 
 <style scoped></style>
@@ -18,11 +18,7 @@ const toggleDarkMode = () => {
       >
         Contact Me
       </button>
-      <button
-        class="border-2 px-4 pr-2 pl-2 rounded-lg border-teal-300 hover:bg-teal-300 hover:text-black"
-      >
-        Resume/CV
-      </button>
+      <a href="../assets/files/RDiazResume.pdf" download="RDiazResume.pdf" class="border-2 pt-3 px-2 rounded-lg border-teal-300 hover:bg-teal-300 hover:text-black" >Resume/CV</a>
       <i
         v-on:click="toggleDarkMode()"
         class="flex flex-col-reverse border-2 rounded-2xl dark:border-teal-300 border-cyan-300 p-0 transition duration-1000"
