@@ -5,8 +5,7 @@ const isDarkMode = ref(null)
 const toggleDarkMode = () => {
   isDarkMode.value = document.documentElement.classList.toggle('dark')
 }
-
-
+const fileURL = ref('/files/RDiazResume.pdf')
 </script>
 
 <style scoped></style>
@@ -18,7 +17,13 @@ const toggleDarkMode = () => {
       >
         Contact Me
       </button>
-      <a href="../assets/files/RDiazResume.pdf" download="RDiazResume.pdf" class="border-2 pt-3 px-2 rounded-lg border-teal-300 hover:bg-teal-300 hover:text-black" >Resume/CV</a>
+
+      <a
+        :href="fileURL"
+        download
+        class="border-2 pt-3 px-2 rounded-lg border-teal-300 hover:bg-teal-300 hover:text-black"
+        >Resume/CV</a
+      >
       <i
         v-on:click="toggleDarkMode()"
         class="flex flex-col-reverse border-2 rounded-2xl dark:border-teal-300 border-cyan-300 p-0 transition duration-1000"

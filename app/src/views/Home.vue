@@ -4,10 +4,10 @@
     <h1
       class="flex justify-center items-center lg:mt-76 mt-36 lg:text-7xl text-4xl font-semibold"
     >
-      Hi! I'm Ron Arnie Diaz
+      Hey! I'm Ron Arnie Diaz
     </h1>
     <h1 class="flex justify-center items-center font-light">
-      Full-stack Developer / Laravel Developer
+      Software Engineer | Web Developer
     </h1>
 
     <h1
