@@ -2,14 +2,14 @@
 import Tools from '@/components/Tools.vue'
 </script>
 <template>
-  <div class="lg:h-screen lg:w-screen">
-    <h1 class="flex justify-center mt-36 mb-12 text-2xl font-bold">SKILLS</h1>
+  <div class="h-full mt-36 mb-36">
+    <h1 class="flex justify-center mb-12 text-2xl font-bold">SKILLS</h1>
 
     <div
-      class="flex flex-wrap gap-10 lg:justify-start lg:ml-96 lg:mr-96 mr-16 ml-16"
+      class="flex flex-wrap xl:gap-8 gap-10 justify-start ml-20 mr-20 md:max-lg:ml-40 md:max-lg:mr-40 lg:max-xl:ml-52 lg:max-xl:mr-52 xl:max-2xl:ml-72 xl:max-2xl:mr-72 2xl:ml-96 2xl:mr-96"
     >
       <div
-        class="w-full lg:w-[30%] p-5 dark:bg-white bg-gray-200 border-2 border-teal-300 rounded-lg"
+        class="w-full xl:w-[29%] 2xl:w-[31%] p-5 dark:bg-white bg-gray-200 border-2 border-teal-300 rounded-lg"
       >
         <h1 class="flex flex-col p-5 text-lg dark:text-black">FRONTEND</h1>
 
@@ -39,7 +39,7 @@ import Tools from '@/components/Tools.vue'
         />
       </div>
       <div
-        class="w-full lg:w-[30%] p-5 dark:bg-white bg-gray-200 border-2 border-teal-300 rounded-lg"
+        class="w-full xl:w-[29%] 2xl:w-[31%] p-5 dark:bg-white bg-gray-200 border-2 border-teal-300 rounded-lg"
       >
         <h1 class="flex flex-col p-5 text-lg dark:text-black">BACKEND</h1>
         <Tools
@@ -60,7 +60,7 @@ import Tools from '@/components/Tools.vue'
         />
       </div>
       <div
-        class="w-full lg:w-[30%] p-5 dark:bg-white bg-gray-200 border-2 border-teal-300 rounded-lg"
+        class="w-full xl:w-[29%] 2xl:w-[31%] p-5 dark:bg-white bg-gray-200 border-2 border-teal-300 rounded-lg"
       >
         <h1 class="flex flex-col p-5 text-lg dark:text-black">DEV TOOLS</h1>
         <Tools

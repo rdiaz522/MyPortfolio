@@ -2,7 +2,7 @@
 import Project from '@/components/Project.vue'
 </script>
 <template>
-  <div class="lg:h-screen lg:w-screen mt-36 mb-36">
+  <div class="h-full mt-36 mb-36">
     <h1 class="flex justify-center text-2xl font-bold">MY WORK</h1>
     <h1 class="flex justify-center text-sm mb-16">
       Freelance projects i've worked on

@@ -12,11 +12,11 @@ const fileURL = ref('/files/RDiazResume.pdf')
 <template>
   <div class="relative p-5">
     <div class="flex flex-nowrap gap-10 justify-end">
-      <button
-        class="border-2 px-4 pr-2 pl-2 rounded-lg border-teal-300 hover:bg-teal-300 hover:text-black"
+      <a
+        href="#bottom"
+        class="border-2 pt-3 px-2 rounded-lg border-teal-300 hover:bg-teal-300 hover:text-black"
+        >Contact Me</a
       >
-        Contact Me
-      </button>
 
       <a
         :href="fileURL"
