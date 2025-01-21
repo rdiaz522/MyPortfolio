@@ -34,7 +34,7 @@ const techUsed2 = ['Vanilla PHP', 'Javascript', 'jQuery', 'Bootstrap CSS']
       title="Web Developer Internship @City Social Welfare and Development Office"
       description="Assist and Implementing new features & debuging existing errors. Optimizing existing codebase for the performance of the web application. Managing Documents of the Project & Perform Testing for Deployment"
       year="2020"
-      url="//tacloban.gov.ph/city-social-welfare-and-development-office/.com"
+      url="//tacloban.gov.ph/city-social-welfare-and-development-office/"
       url-name="CSWDO-Tacloban.gov.ph"
       :tech-used="techUsed2"
     />
