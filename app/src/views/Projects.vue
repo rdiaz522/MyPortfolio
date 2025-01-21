@@ -4,7 +4,7 @@ import Project from '@/components/Project.vue'
 <template>
   <div class="h-full mt-36 mb-36">
     <h1 class="flex justify-center text-2xl font-bold">MY WORK</h1>
-    <h1 class="flex justify-center text-sm mb-16">
+    <h1 class="flex justify-center text-sm mb-16 text-teal-300">
       Freelance projects i've worked on
     </h1>
     <!-- PAYROLL -->
@@ -16,7 +16,7 @@ import Project from '@/components/Project.vue'
             employee salaries, deductions, and benefits while reducing the time
             and effort required for manual payroll processing. The system
             features robust reporting tools, enabling businesses to generate
-            detailed reports on payroll summaries, employee earnings, and more."
+            detailed reports on payroll summaries, employee earnings and more."
       buildWith="LARAVEL, VUE, MYSQL, BOOTSTRAP & JAVASCRIPT"
       year="2021"
       client="Sand & Gravel Supplier"

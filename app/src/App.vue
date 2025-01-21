@@ -12,17 +12,17 @@ import Experience from './views/Experience.vue'
   <Header></Header>
   <Home></Home>
   <hr
-    class="border-2 border-teal-300 ml-20 mr-20 md:max-lg:ml-40 md:max-lg:mr-40 lg:max-xl:ml-52 lg:max-xl:mr-52 xl:max-2xl:ml-72 xl:max-2xl:mr-72 2xl:ml-96 2xl:mr-96"
+    class="border-2 border-teal-300 ml-20 mr-20 xsm:ml-12 xsm:mr-12 md:max-lg:ml-32 md:max-lg:mr-32 lg:max-xl:ml-52 lg:max-xl:mr-52 xl:max-2xl:ml-72 xl:max-2xl:mr-72 2xl:ml-96 2xl:mr-96"
   />
   <Experience />
 
   <Projects></Projects>
   <hr
-    class="border-2 border-teal-300 ml-20 mr-20 md:max-lg:ml-40 md:max-lg:mr-40 lg:max-xl:ml-52 lg:max-xl:mr-52 xl:max-2xl:ml-72 xl:max-2xl:mr-72 2xl:ml-96 2xl:mr-96"
+    class="border-2 border-teal-300 ml-20 mr-20 xsm:ml-12 xsm:mr-12 md:max-lg:ml-40 md:max-lg:mr-40 lg:max-xl:ml-52 lg:max-xl:mr-52 xl:max-2xl:ml-72 xl:max-2xl:mr-72 2xl:ml-96 2xl:mr-96"
   />
   <Skills></Skills>
   <hr
-    class="border-2 border-teal-300 ml-20 mr-20 md:max-lg:ml-40 md:max-lg:mr-40 lg:max-xl:ml-52 lg:max-xl:mr-52 xl:max-2xl:ml-72 xl:max-2xl:mr-72 2xl:ml-96 2xl:mr-96"
+    class="border-2 border-teal-300 ml-20 mr-20 xsm:ml-12 xsm:mr-12 md:max-lg:ml-40 md:max-lg:mr-40 lg:max-xl:ml-52 lg:max-xl:mr-52 xl:max-2xl:ml-72 xl:max-2xl:mr-72 2xl:ml-96 2xl:mr-96"
   />
   <Contact />
 

@@ -11,7 +11,7 @@ const fileURL = ref('/files/RDiazResume.pdf')
 <style scoped></style>
 <template>
   <div class="relative p-5">
-    <div class="flex flex-nowrap gap-10 justify-end">
+    <div class="flex flex-nowrap gap-10 xsm:gap-5 justify-end">
       <a
         href="#bottom"
         class="border-2 pt-3 px-2 rounded-lg border-teal-300 hover:text-black hover:scale-110 hover:bg-teal-300 duration-300"

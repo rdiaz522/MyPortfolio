@@ -35,6 +35,10 @@ const props = defineProps({
     type: String,
     default: '',
   },
+  employer: {
+    type: String,
+    default: '',
+  },
   description: {
     type: String,
     default: '',
@@ -62,18 +66,19 @@ const props = defineProps({
 
 <template>
   <div
-    class="border-b border-slate-200 rounded-lg ml-20 mr-20 md:max-lg:ml-40 md:max-lg:mr-40 lg:max-xl:ml-52 lg:max-xl:mr-52 xl:max-2xl:ml-72 xl:max-2xl:mr-72 2xl:ml-96 2xl:mr-96"
+    class="rounded-lg ml-20 mr-20 xsm:ml-12 xsm:mr-12 md:max-lg:ml-40 md:max-lg:mr-40 lg:max-xl:ml-52 lg:max-xl:mr-52 xl:max-2xl:ml-72 xl:max-2xl:mr-72 2xl:ml-96 2xl:mr-96"
   >
     <button
       @click="toggleAccordion()"
       class="w-full text-lg font-bold flex justify-between items-center py-5"
     >
-      <span class="hover:scale-110 duration-300 dark:text-teal-300">{{
-        props.title
-      }}</span>
+      <span class="flex hover:scale-110 duration-300">
+        <h1 class="dark:text-white pr-2">{{ props.title }}</h1>
+        <h1 class="text-teal-300">{{ props.employer }}</h1>
+      </span>
       <span
         ref="icon"
-        class="text-slate-800 transition-transform duration-300 dark:bg-white bg-black text-white dark:text-black rounded-lg"
+        class="transition-transform duration-300 dark:bg-white bg-black text-white dark:text-black rounded-lg"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -92,40 +97,51 @@ const props = defineProps({
       class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out"
     >
       <div class="flex flex-row">
-        <div class="text-justify items-center justify-center w-1/2">
-          <p
-            style="hyphens: auto"
-            class="pr-5 pb-5 dark:text-white text-lg font-medium tracking-tighter"
+        <div class="flex flex-wrap">
+          <div
+            class="text-justify xsm:text-left items-center justify-center w-full"
           >
-            {{ props.description }}
-          </p>
-        </div>
-
-        <div class="text-justify items-center justify-center w-1/4">
-          <div class="pl-5 pr-5 dark:text-white text-lg font-bold">
-            <span class="font-medium">{{ props.year }}</span
-            ><br />
-            <span>
-              <a
-                class="text-blue-500 underline"
-                :href="props.url"
-                target="_blank"
-                >{{ props.urlName }}</a
-              ></span
+            <p
+              class="pr-5 pl-5 pb-5 lg:pr-28 lg:pl-28 dark:text-white text-lg font-medium tracking-tighter"
             >
+              {{ props.description }}
+            </p>
           </div>
-        </div>
 
-        <div class="text-justify items-center justify-center w-1/2">
-          <div class="text-white text-sm font-bold">
-            <div class="flex flex-row w-full">
-              <div class="flex flex-wrap gap-2">
-                <div
-                  v-for="(tech, i) in props.techUsed"
-                  :key="i"
-                  class="flex bg-teal-600 pl-5 pr-5 pt-2 pb-2 rounded-3xl"
-                >
-                  <span>{{ tech }}</span>
+          <div
+            class="text-justify items-center justify-center w-1/2 xsm:w-full"
+          >
+            <div
+              class="pl-5 pr-5 pb-5 lg:pr-28 lg:pl-28 dark:text-white text-lg font-bold"
+            >
+              <span class="font-medium">{{ props.year }}</span
+              ><br />
+              <span>
+                <a
+                  class="text-blue-500 underline"
+                  :href="props.url"
+                  target="_blank"
+                  >{{ props.urlName }}</a
+                ></span
+              >
+            </div>
+          </div>
+
+          <div
+            class="text-justify items-center justify-center w-1/2 xsm:w-full"
+          >
+            <div
+              class="pl-5 pr-5 lg:pr-28 lg:pl-28 text-white text-sm font-bold"
+            >
+              <div class="flex flex-row w-full">
+                <div class="flex flex-wrap gap-2">
+                  <div
+                    v-for="(tech, i) in props.techUsed"
+                    :key="i"
+                    class="flex bg-teal-600 pl-5 pr-5 pt-2 pb-2 rounded-3xl"
+                  >
+                    <span>{{ tech }}</span>
+                  </div>
                 </div>
               </div>
             </div>

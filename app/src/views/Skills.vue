@@ -6,7 +6,7 @@ import Tools from '@/components/Tools.vue'
     <h1 class="flex justify-center mb-12 text-2xl font-bold">SKILLS</h1>
 
     <div
-      class="flex flex-wrap xl:gap-8 gap-10 justify-start ml-20 mr-20 md:max-lg:ml-40 md:max-lg:mr-40 lg:max-xl:ml-52 lg:max-xl:mr-52 xl:max-2xl:ml-72 xl:max-2xl:mr-72 2xl:ml-96 2xl:mr-96"
+      class="flex flex-wrap xl:gap-8 gap-10 justify-start ml-20 mr-20 xsm:ml-12 xsm:mr-12 md:max-lg:ml-40 md:max-lg:mr-40 lg:max-xl:ml-52 lg:max-xl:mr-52 xl:max-2xl:ml-72 xl:max-2xl:mr-72 2xl:ml-96 2xl:mr-96"
     >
       <div
         class="w-full xl:w-[29%] 2xl:w-[31%] p-5 dark:bg-white bg-gray-200 border-2 border-teal-300 rounded-lg"

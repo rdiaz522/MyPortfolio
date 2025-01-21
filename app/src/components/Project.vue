@@ -36,7 +36,7 @@ const getImageUrl = () => {
 <template>
   <!-- PAYROLL -->
   <div
-    class="flex flex-wrap justify-start mb-36 ml-20 mr-20 md:max-lg:ml-40 md:max-lg:mr-40 lg:max-xl:ml-52 lg:max-xl:mr-52 xl:max-2xl:ml-72 xl:max-2xl:mr-72 2xl:ml-96 2xl:mr-96"
+    class="flex flex-wrap justify-start mb-36 ml-20 mr-20 xsm:ml-12 xsm:mr-12 md:max-lg:ml-40 md:max-lg:mr-40 lg:max-xl:ml-52 lg:max-xl:mr-52 xl:max-2xl:ml-72 xl:max-2xl:mr-72 2xl:ml-96 2xl:mr-96"
   >
     <div
       class="relative group h-96 w-96 bg-white-300 rounded-lg overflow-hidden sm:max-lg:w-full lg:max-xl:w-1/2 xl:max-2xl:w-[49%] xl:w-1/2"
@@ -65,13 +65,10 @@ const getImageUrl = () => {
     </div>
 
     <div
-      class="sm:max-lg:w-full lg:max-xl:w-1/2 xl:max-2xl:w-[49%] xl:max-2xl:pl-7 lg:max-xl:pl-5 sm:max-lg:pt-5 xl:w-1/2 xl:pl-10"
+      class="xsm:pt-5 sm:max-lg:w-full lg:max-xl:w-1/2 xl:max-2xl:w-[49%] xl:max-2xl:pl-7 lg:max-xl:pl-5 sm:max-lg:pt-5 xl:w-1/2 xl:pl-10"
     >
       <div>
-        <h1
-          class="text-lg text-left text-justify tracking-tighter"
-          style="hyphens: auto"
-        >
+        <h1 class="text-lg text-left tracking-tighter">
           {{ props.description }}
         </h1>
         <br />
