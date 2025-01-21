@@ -7,7 +7,7 @@ import Links from '@/components/Links.vue'
     class="h-full mt-36 mb-36 ml-20 mr-20 md:max-lg:ml-40 md:max-lg:mr-40 lg:max-xl:ml-52 lg:max-xl:mr-52 xl:max-2xl:ml-72 xl:max-2xl:mr-72 2xl:ml-96 2xl:mr-96"
   >
     <h1 class="flex mb-12 text-2xl font-bold">REACH OUT TO ME AT:</h1>
-    <div class="flex sm:flex-col">
+    <div class="flex flex-col">
       <div>
         <Links
           label="ronarniediaz@gmail.com"

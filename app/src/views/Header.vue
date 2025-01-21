@@ -14,14 +14,14 @@ const fileURL = ref('/files/RDiazResume.pdf')
     <div class="flex flex-nowrap gap-10 justify-end">
       <a
         href="#bottom"
-        class="border-2 pt-3 px-2 rounded-lg border-teal-300 hover:bg-teal-300 hover:text-black"
+        class="border-2 pt-3 px-2 rounded-lg border-teal-300 hover:text-black hover:scale-110 hover:bg-teal-300 duration-300"
         >Contact Me</a
       >
 
       <a
         :href="fileURL"
         download
-        class="border-2 pt-3 px-2 rounded-lg border-teal-300 hover:bg-teal-300 hover:text-black"
+        class="border-2 pt-3 px-2 rounded-lg border-teal-300 hover:text-black hover:scale-110 hover:bg-teal-300 duration-300"
         >Resume/CV</a
       >
       <i

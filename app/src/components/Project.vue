@@ -60,6 +60,7 @@ const getImageUrl = () => {
         <h1 class="text-gray-200 text-center text-lg font-medium">
           {{ props.projectType }}
         </h1>
+        <button class="bg-indigo-500">Source Code</button>
       </div>
     </div>
 

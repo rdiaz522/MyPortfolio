@@ -27,7 +27,7 @@ defineProps({
     <div v-if="imgType === 'svg'">
       <slot></slot>
     </div>
-    <div class="pl-3 pt-2">
+    <div class="pl-3 pt-2 hover:scale-110 duration-300">
       <a :href="url" target="_blank">
         <h1 class="text-lg text-teal-700 dark:text-teal-300">{{ label }}</h1></a
       >
