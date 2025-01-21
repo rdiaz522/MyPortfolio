@@ -5,16 +5,31 @@ const icon = ref(null)
 const toggleAccordion = () => {
   // SVG for Minus icon
   const minusSVG = `
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4">
-        <path d="M3.75 7.25a.75.75 0 0 0 0 1.5h8.5a.75.75 0 0 0 0-1.5h-8.5Z" />
-      </svg>
+     <svg class="w-6 h-6 text-gray-800 dark:text-black text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m5 15 7-7 7 7"/>
+</svg>
+
     `
 
   // SVG for Plus icon
   const plusSVG = `
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4">
-        <path d="M8.75 3.75a.75.75 0 0 0-1.5 0v3.5h-3.5a.75.75 0 0 0 0 1.5h3.5v3.5a.75.75 0 0 0 1.5 0v-3.5h3.5a.75.75 0 0 0 0-1.5h-3.5v-3.5Z" />
-      </svg>
+       <svg
+          class="w-6 h-6 text-gray-800 dark:text-black text-white"
+          aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          fill="none"
+          viewBox="0 0 24 24"
+        >
+          <path
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="m19 9-7 7-7-7"
+          />
+        </svg>
     `
 
   // Toggle the content's max-height for smooth opening and closing
@@ -78,16 +93,33 @@ const props = defineProps({
       </span>
       <span
         ref="icon"
-        class="transition-transform duration-300 dark:bg-white bg-black text-white dark:text-black rounded-lg"
+        class="transition-transform duration-300 dark:bg-teal-300 bg-black rounded-lg"
       >
-        <svg
+        <!-- <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 16 16"
           fill="currentColor"
-          class="w-4 h-4"
+          class="w-8 h-8"
         >
           <path
             d="M8.75 3.75a.75.75 0 0 0-1.5 0v3.5h-3.5a.75.75 0 0 0 0 1.5h3.5v3.5a.75.75 0 0 0 1.5 0v-3.5h3.5a.75.75 0 0 0 0-1.5h-3.5v-3.5Z"
+          />
+        </svg> -->
+        <svg
+          class="w-6 h-6 text-gray-800 dark:text-black text-white"
+          aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          fill="none"
+          viewBox="0 0 24 24"
+        >
+          <path
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="m19 9-7 7-7-7"
           />
         </svg>
       </span>
